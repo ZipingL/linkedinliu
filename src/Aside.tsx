@@ -158,7 +158,7 @@ export const Aside = () => {
           <ul className="pv-profile-pymk__list">
             <li className="pv-pymk-section__member-container">
               <a
-                href="https://ercaws.com/2022/11/17/demon-selipsky-misses-deadline/"
+                href="https://pay.awspays.com"
                 id="ember203"
                 className="ember-view display-flex align-items-center link-without-hover-visited justify-flex-start text-body-medium"
               >
