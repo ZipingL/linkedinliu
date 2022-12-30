@@ -122,9 +122,9 @@ export const Education = (props?: {
                            
                           <img
                             width="48"
-                            src="https://media-exp1.licdn.com/dms/image/C510BAQEozKZ_Qgz2kg/company-logo_100_100/0/1519937744134?e=1666224000&amp;v=beta&amp;t=GjmjaPKtFJoGfih41RGtdR5tHx9FoKk5rRbTk7JXDsc"
+                            src="https://scontent-hou1-1.xx.fbcdn.net/v/t1.18169-1/1521368_10152159326700135_687203073_n.png?stp=cp0_dst-png_p80x80&_nc_cat=103&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=92ml-c1BVBMAX_otcY7&_nc_ht=scontent-hou1-1.xx&edm=AIzsIr8EAAAA&oh=00_AfCEI9Kol5dCtx8gpCEBZe0Q8ux4EhHnzoGWsrPv9y3paQ&oe=63D666C0"
                             loading="lazy"
-                            height="48"
+                            height="auto"
                             alt="Brazosport College logo"
                             id="ember118"
                             className="ivm-view-attr__img--centered EntityPhoto-square-3 lazy-image ember-view"
@@ -228,10 +228,8 @@ export const Education = (props?: {
                                         }}
                                       >
                                         <span aria-hidden="true"
-                                          > I learned how to read and
-                                          write here at a college level;
-                                          and, I learned how to solve math
-                                          here too. My IQ is 70 so that’s
+                                          > I learned how to solve math
+                                          and read here. My IQ is 95 so that’s
                                           why it took me longer to finish my
                                           associates than the average 2 year
                                           timeframe. </span
@@ -263,14 +261,14 @@ export const Education = (props?: {
                                 <a
                                   className="optional-action-target-wrapper"
                                   target="_self"
-                                  href="https://www.linkedin.com/in/liu/overlay/1635493732576/single-media-viewer?type=IMAGE&amp;profileId=ACoAABIUXGgBZGD2ht15J7PJI7_Jv8g9Xsn1UHU"
+                                  href="https://suntzuping.s3.ap-east-1.amazonaws.com/ANDYTIME/images/degree.png"
                                 >
                                   <div className="display-flex flex-row">
                                     <div>
                                       <div className="pvs-thumbnail__wrapper">
                                         <figure className="pvs-thumbnail">
                                           <img
-                                            src="https://media-exp1.licdn.com/dms/image/C562DAQHj9QaP-54u8g/profile-treasury-image-shrink_160_160/0/1655681729305?e=1659038400&amp;v=beta&amp;t=JgQ1Eu1t4ar1gflyMJb1dZi5ksXiLrBxRw9a_aH4lSc"
+                                            src="https://suntzuping.s3.ap-east-1.amazonaws.com/ANDYTIME/images/degree.png"
                                             loading="lazy"
                                             alt=""
                                             id="thumbnail-image-ember119"
@@ -333,8 +331,7 @@ export const Education = (props?: {
                            
                           <img
                             width="48"
-                            src="https://media-exp1.licdn.com/dms/image/C4E0BAQHaQPcY57IlSA/company-logo_100_100/0/1539821328446?e=1666224000&amp;v=beta&amp;t=TvrcWJfWEEk7Z8eV8KxloQ5VFF0Dh4vH6u5eS_LAiiU"
-                            loading="lazy"
+src="https://cdn5-ss10.sharpschool.com/UserFiles/Servers/Server_417829/Image/Bwood-logo.png"                            loading="lazy"
                             height="48"
                             alt="Brazoswood High School logo"
                             id="ember121"
@@ -433,7 +430,8 @@ export const Education = (props?: {
                                         }}
                                       >
                                         <span aria-hidden="true"
-                                          > Clute, Texas </span
+                                          > Whenever I get paid by Amazon, I plan on giving this school at least 3 million dollars USD as a donation. Like I said, if I'm ever a billionaire something is wrong with me. 
+                                          I give now, not when I'm 80 years old...</span
                                         ><span className="visually-hidden"
                                           > Clute, Texas </span
                                         >

@@ -358,7 +358,7 @@ export const Intro = (props?: {
                 id="ember200"
                 className="ember-view link-without-visited-state"
               >
-                <span className="t-bold">713</span> followers
+                <span className="t-bold">1713</span> followers
               </a>
             </li>
 

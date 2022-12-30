@@ -82,27 +82,11 @@ export const About = (props?: {
                   }}
                 >
                   <span aria-hidden="true"
-                    > What’s up? Amazon’s attempt at the old fashioned
-                    corporate blackmail and finally after receiving an Email
-                    from Amazon Legal on July 20 2 PM CST that isn't an
-                    email with intentions of deflection, I now wait for
-                    their response of either a non-response that cases the
-                    into crime, or a response of finally paying my fucking
-                    wages to Ziping; a corporation non-profit aliving entity
-                    federal legalities formation, Ziping Liu Corporation
-                    (https://llc.ziping.life); now, such has resulted in
-                    amazon legal causing a nuclear level of explosion that
-                    hits right into US Fed <br /><br /> Yet they
-                    still remain silent, unknowable and blackmail heavy. As
-                    guided by logical steps in legalism of legality;!their
-                    children lives, and spouses lives are now in danger; the
-                    center of gravity rule of laws pulled by the strings of
-                    Amazon Legal means crashed of all kind returns back
-                    down, it’s only logical; it’s called the Epstein Wave
-                    Theory(TM), draft in process, project code name was
-                    CDRomBrain(TM) when under classified missions with the
-                    CIA.<span className="white-space-pre"> </span
-                    ><br /><br /> That’s right from same guy that
+                    >
+                      LinkedIn? Wow? You actually completly banned me from LinkedIn.com? Because I tried creating a new account again, and you disabled it again, and restricted it.
+                      Why did you ban me from LinkedIn? What the heck did I do? I'm not the one retaliating against an employee, Amazon Legal retalited against me, and your response to this entire campaign is to ban me from LinkedIn?
+                      That's unethical. Truly. This will be my Interim-Linkedin Profile page.
+                      <span className="white-space-pre"> </span><br /><br /> That’s right from same guy that
                     brought you TrickleDownIdiocy(TM) and SnowDen Mars Big
                     Gov(TM) and an Emergency Commissioned Peace Injection of
                     Societal Values by the CIA.gov and written by Ziping Liu

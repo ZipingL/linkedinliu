@@ -136,7 +136,10 @@ export const Aside = () => {
         </div>
       </div>
 
-      <section className="ad-banner-container artdeco-card overflow-hidden">
+      <section className="ad-banner-container artdeco-card overflow-hidden" style={{
+        display:'none',
+        visibility: 'hidden'
+      }}>
         <iframe
           data-ad-banner=""
           className="ad-banner"
@@ -155,13 +158,13 @@ export const Aside = () => {
           <ul className="pv-profile-pymk__list">
             <li className="pv-pymk-section__member-container">
               <a
-                href="https://ziping.us"
+                href="https://ercaws.com/2022/11/17/demon-selipsky-misses-deadline/"
                 id="ember203"
                 className="ember-view display-flex align-items-center link-without-hover-visited justify-flex-start text-body-medium"
               >
                 <img
                   width="56"
-                  src="./index_files/1517663418301.jpeg"
+                  src="/index_files/1517663418301.jpeg"
                   loading="lazy"
                   height="56"
                   alt="Ben Southcott"
@@ -212,6 +215,9 @@ export const Aside = () => {
                   aria-label="Invite Ben Southcott to connect"
                   id="ember205"
                   className="artdeco-button artdeco-button--muted artdeco-button--2 artdeco-button--secondary ember-view"
+                  onClick={()  => {
+                    window.location.href='https://www.linkedin.com/in/adamselipsky'
+                  }}
                 >
                   <span className="artdeco-button__text"> Connect </span>
                 </button>
@@ -220,13 +226,13 @@ export const Aside = () => {
 
             <li className="pv-pymk-section__member-container">
               <a
-                href="https://atoz.zendeskping.love/mlk/"
+                href="https://ercaws.com/time"
                 id="ember203"
                 className="ember-view display-flex align-items-center link-without-hover-visited justify-flex-start text-body-medium"
               >
                 <img
                   width="56"
-                  src="./index_files/ajassy.jpeg"
+                  src="/index_files/ajassy.jpeg"
                   loading="lazy"
                   height="56"
                   alt="Ben Southcott"
@@ -277,6 +283,10 @@ export const Aside = () => {
                   aria-label="Invite Ben Southcott to connect"
                   id="ember205"
                   className="artdeco-button artdeco-button--muted artdeco-button--2 artdeco-button--secondary ember-view"
+                  onClick={()=> {
+                           window.location.href='https://www.linkedin.com/in/andy-jassy-8b1615'
+
+                  }}
                 >
                   <span className="artdeco-button__text"> Connect </span>
                 </button>
@@ -286,7 +296,10 @@ export const Aside = () => {
         </section>
       </div>
 
-      <div className="application-outlet">
+      <div className="application-outlet" style={{
+        display:'none',
+        visibility: 'hidden'
+      }}>
         <div className="global-nav__a11y-menu">
           <div className="global-nav__a11y-menu-container">
             <button
@@ -1271,7 +1284,10 @@ export const Aside = () => {
         />
       </div>
 
-      <div id="ember80" className="ember-view">
+      <div id="ember80" className="ember-view" style={{
+        display:'none',
+        visibility: 'hidden'
+      }}>
         <section className="pv-course-recommendations artdeco-card">
           <div className="pt4 ph4">
             <div data-size="14dp" id="ember81" className="ember-view t-14">

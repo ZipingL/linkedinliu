@@ -21,10 +21,8 @@ export  const Main = ()  => {
          
          
 
-         <Analytics />
          
          
-         <Resources />
 
          
 
@@ -37,7 +35,6 @@ export  const Main = ()  => {
 
          
    
-      <Experience />
 
       <Education />
     

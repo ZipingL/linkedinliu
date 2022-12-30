@@ -13,7 +13,10 @@ export const Activity = (props?: {
                 
         <section
           id={id}
-          className="artdeco-card ember-view relative break-words pb3 mt2"
+          className="artdeco-card ember-view relative break-words pb3 mt2" style={{
+            display: 'none',
+            visibility: 'hidden'
+          }}
         >
            
 
@@ -35,7 +38,7 @@ export const Activity = (props?: {
                         className="app-aware-link"
                         target="_self"
                         href="https://www.linkedin.com/feed/followers/"
-                        ><strong> 713 followers </strong></a
+                        ><strong> 1713 followers </strong></a
                       ></span
                     ><span className="visually-hidden"
                       ><a
