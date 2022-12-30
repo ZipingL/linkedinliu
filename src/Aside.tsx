@@ -6,7 +6,7 @@ import Script from './Utils/Script';
 export const Aside = () => {
 
   const props: LinkedinBadgeLoaderProps = {
-    vanity: 'ziping-liu-664316260',
+    vanity: 'awsliu',
     theme: 'dark',
     size: 'large',
     type: 'horizontal',
@@ -148,13 +148,15 @@ export const Aside = () => {
       </div>
 
       <section className="ad-banner-container artdeco-card overflow-hidden" style={{
+        backgroundColor:'transparent'
       }}>
        
 
         <div className="ad-banner" style={{
           alignItems: 'center',
           verticalAlign: 'middle',
-          display: 'flex',
+          textAlign: 'center',
+          display: 'flex-box',
           justifyContent: 'center',
         }}>
                       <Script src="https://platform.linkedin.com/badges/js/profile.js" 
@@ -166,6 +168,7 @@ export const Aside = () => {
         
       />
 
+     { linkedLoaded && <LinkedinBadgeLoader {...props} />}
           
         </div>
       </section>
