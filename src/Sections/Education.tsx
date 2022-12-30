@@ -3,6 +3,7 @@ import Lightbox from 'react-18-image-lightbox';
 import 'react-18-image-lightbox/style.css';
 import laDegree from '../images/la.png';
 import degree from '../images/degree.png'
+import cocacola from '../images/cocacola.png';
 import { motion } from 'framer-motion';
 export const Education = (props?: {
     id?: string;
@@ -23,6 +24,10 @@ export const Education = (props?: {
   const toggleShowAssociatesDegree = () => setShowAssociatesDegree(!showAssociatesDegree);
     const toggleShowLiberalDegree = () => setShowLiberalDegree(!showLiberalDegree);
     const toggleShowLiberalDescription = () => setShowLiberalDescription(!showLiberalDescription);
+
+    const [showLiberalLogo, setShowLiberalLogo] = useState(false);
+
+    const toggleShowLiberalLogo = () => setShowLiberalLogo(!showLiberalLogo);
     return(         
         <section
           id={id}
@@ -43,6 +48,25 @@ export const Education = (props?: {
                                   }
                                   onCloseRequest={
                                     toggleShowLiberalDegree
+
+                                  } />
+                          
+                                }
+
+{
+                                  showLiberalLogo && <Lightbox mainSrc={cocacola} 
+                                  onAfterOpen={
+                                   ()=>{
+                                    setShowLiberalLogo(true);
+                                   }
+                                  }
+                                  onImageLoad={
+                                    ()=> {
+                                      setShowLiberalLogo(true);
+                                    }
+                                  }
+                                  onCloseRequest={
+                                    toggleShowLiberalLogo
 
                                   } />
                           
@@ -182,6 +206,11 @@ export const Education = (props?: {
                       className="optional-action-target-wrapper display-flex"
                       target="_self"
                       href="https://www.linkedin.com/company/72719/"
+                      onClick={(e)=>{
+                        e.preventDefault();
+                        e.stopPropagation();
+                        toggleShowLiberalLogo();
+                      }}
                     >
                       <div className="ivm-image-view-model pvs-entity__image">
                         <div
@@ -216,7 +245,7 @@ export const Education = (props?: {
                         <div className="display-flex align-items-center">
                           <span className="mr1 hoverable-link-text t-bold">
                             <span aria-hidden="true"
-                              > COLA within the Univeresity of Texas at Austin </span
+                              > COLA within the University of Texas at Austin </span
                             ><span className="visually-hidden"
                               > Brazosport College </span
                             >
