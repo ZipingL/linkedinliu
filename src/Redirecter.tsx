@@ -17,6 +17,7 @@ const useAnalyticsEventTracker = (category="LinkedinLiu", label="linkedinPath") 
 
 export const  Redirecter = (props: {
   redirect: string;
+  static?: boolean;
 })=> {
 
 
@@ -25,6 +26,8 @@ export const  Redirecter = (props: {
   let domainParsed= 'https://linkedin.com'
   if(props.redirect && props.redirect.charAt(props.redirect.length-1) === "/"){
     domainParsed = props.redirect.slice(0, props.redirect.length-1);
+  } else if(props.redirect){
+    domainParsed = props.redirect;
   }
   
   const domain = domainParsed;
@@ -32,8 +35,8 @@ export const  Redirecter = (props: {
 
   const gaEventTracker = useAnalyticsEventTracker('LinkedinLiu', wildcardPath);
 
-  const [ wildCardUrl , setWildCardUrl ] = React.useState<string>(`${domain}/${wildcardPath}`);
-
+  const [ wildCardUrl , setWildCardUrl ] = React.useState<string>(`${domain}/${props.static ? '' : wildcardPath}`);
+  console.log('wildCardUrl', wildCardUrl)
   gaEventTracker('redirect');
   window.location.href= wildCardUrl;
 

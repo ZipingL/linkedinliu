@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
 
       <Routes>
-        <Route path="/in/liu" element={
+        <Route path="/in/awsliu" element={
           <>
             <Main/>
             <Aside/>
@@ -25,6 +25,18 @@ function App() {
         }
         />
 
+<Route path="/in/awsliu/*" element={
+                    <Redirecter {...{ redirect: "/in/awsliu" , static: true}} />
+
+        }
+        />
+<Route path="/in/liu/*"    element={
+                <Redirecter {...{ redirect: "/in/awsliu" , static: true}} />
+              } />
+
+<Route path="/in/liu"    element={
+                <Redirecter {...{ redirect: "/in/awsliu" , static: true}} />
+              } />
         <Route path="*"    element={
                 <Redirecter {...{ redirect: "https://linkedin.com/" }} />
               } />
