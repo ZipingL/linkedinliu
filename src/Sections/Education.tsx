@@ -190,10 +190,10 @@ export const Education = (props?: {
                            
                           <img
                             width="48"
-                            src="https://scontent-hou1-1.xx.fbcdn.net/v/t1.18169-1/1521368_10152159326700135_687203073_n.png?stp=cp0_dst-png_p80x80&_nc_cat=103&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=92ml-c1BVBMAX_otcY7&_nc_ht=scontent-hou1-1.xx&edm=AIzsIr8EAAAA&oh=00_AfCEI9Kol5dCtx8gpCEBZe0Q8ux4EhHnzoGWsrPv9y3paQ&oe=63D666C0"
+                            src="https://liberalarts.utexas.edu/_public/images/base/RGB_informal_branded_a_Liberal_Arts_1.png"
                             loading="lazy"
                             height="auto"
-                            alt="Brazosport College logo"
+                            alt="COLA UT LOGO"
                             id="ember118"
                             className="ivm-view-attr__img--centered EntityPhoto-square-3 lazy-image ember-view"
                           />
@@ -216,7 +216,7 @@ export const Education = (props?: {
                         <div className="display-flex align-items-center">
                           <span className="mr1 hoverable-link-text t-bold">
                             <span aria-hidden="true"
-                              > University of Texas at Austin </span
+                              > COLA within the Univeresity of Texas at Austin </span
                             ><span className="visually-hidden"
                               > Brazosport College </span
                             >
