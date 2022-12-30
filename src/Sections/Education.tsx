@@ -225,8 +225,7 @@ export const Education = (props?: {
                         </div>
                         <span className="t-14 t-normal">
                           <span aria-hidden="true"
-                            > Associate's degree, English Language and
-                            Literature, General </span
+                            > BA - Asian Cultures and Languages </span
                           ><span className="visually-hidden"
                             > Associate's degree, English Language and
                             Literature, General </span
