@@ -299,7 +299,7 @@ export const Intro = (props?: {
               ><a
                 className="app-aware-link"
                 target="_blank"
-                href="https://thefbi.us/legal" rel="noopener noreferrer"
+                href="https://liu.academy/references/genziping" rel="noopener noreferrer"
                 ><strong
                   > #genzMakingCorpExecsGreatAgain </strong
                 ><span className="white-space-pre"> </span
