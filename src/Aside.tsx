@@ -1,15 +1,26 @@
 import React from "react";
 import Languages from "./Sections/Langauges";
+import LinkedinBadgeLoader, { LinkedinBadgeLoaderProps } from 'react-linkedinbadge';
+import Script from './Utils/Script';
 
 export const Aside = () => {
+
+  const props: LinkedinBadgeLoaderProps = {
+    vanity: 'ziping-liu-664316260',
+    theme: 'dark',
+    size: 'large',
+    type: 'horizontal',
+    locale: 'en_US',
+    version: 'v1',
+    title: 'Ziping Liu'
+  }
+
+  const [linkedLoaded , setLinkedLoaded] = React.useState(false);
+
   return (
     <aside className="scaffold-layout__aside">
-      <iframe
-        title="Intentionally blank"
-        aria-hidden="true"
-        src="about:blank"
-        className="pv-right-rail__empty-iframe"
-      ></iframe>
+   
+ 
 
       <div className="pv-profile-info-section artdeco-card p4 mb2">
         <div className="relative mt0 mb4 mh0">
@@ -137,18 +148,26 @@ export const Aside = () => {
       </div>
 
       <section className="ad-banner-container artdeco-card overflow-hidden" style={{
-        display:'none',
-        visibility: 'hidden'
       }}>
-        <iframe
-          data-ad-banner=""
-          className="ad-banner"
-          width="300"
-          height="250"
-          src="about:blank"
-          scrolling="no"
-          title="advertisement"
-        ></iframe>
+       
+
+        <div className="ad-banner" style={{
+          alignItems: 'center',
+          verticalAlign: 'middle',
+          display: 'flex',
+          justifyContent: 'center',
+        }}>
+                      <Script src="https://platform.linkedin.com/badges/js/profile.js" 
+                      delayMs={30}
+                      onLoad={() => {
+                        console.log('loaded');
+                        setLinkedLoaded(true);
+                      }}
+        
+      />
+
+          
+        </div>
       </section>
 
       <div className="pv-profile-pymk__container artdeco-card">
@@ -1527,6 +1546,7 @@ export const Aside = () => {
           </span>
         </section>
       </div>
+
     </aside>
   );
 };

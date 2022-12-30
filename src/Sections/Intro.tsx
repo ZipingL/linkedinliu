@@ -13,6 +13,11 @@ export const Intro = (props?: {
 
     const toggle = () => setIsOpen(!isOpen);
 
+    const [showPdf , setShowPdf] = useState(false);
+
+    const togglePdf = () => setShowPdf(!showPdf);
+
+
     return(
         <section
         id={String(id)}
@@ -483,7 +488,7 @@ export const Intro = (props?: {
         }} aria-hidden="true" data-type="download" className="mr3 flex-grow-0" data-size="large"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" className="mercado-match" width="24" height="24" focusable="false">
   <path d="M21 14v5a3 3 0 01-3 3H6a3 3 0 01-3-3v-5h2v5a1 1 0 001 1h12a1 1 0 001-1v-5zm-4-.57V11l-4 2.85V3h-2v10.85L7 11v2.43L12 17z"></path>
 </svg></li>
-      <span className="display-flex t-normal flex-1" aria-hidden="true">Save to PDF</span>
+      <span className="display-flex t-normal flex-1" aria-hidden="true">Save to PsDF</span>
       <span className="a11y-text" aria-live="off">Save your profile to PDF</span>
     </div>
 
