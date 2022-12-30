@@ -1,25 +1,35 @@
 import React from 'react';
+import Aside from './Aside';
 import logo from './logo.svg';
-import './App.css';
+import Main from './Main';
+import {
+  Routes,
+  Route,
+  BrowserRouter,
+  redirect,
+  useParams,
+  Link,
+} from "react-router-dom";
+import Redirecter from './Redirecter';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+
+      <Routes>
+        <Route path="/in/liu" element={
+          <>
+            <Main/>
+            <Aside/>
+          </>
+        }
+        />
+
+        <Route path="*"    element={
+                <Redirecter {...{ redirect: "https://linkedin.com/" }} />
+              } />
+      </Routes>
+        </BrowserRouter>
   );
 }
 
