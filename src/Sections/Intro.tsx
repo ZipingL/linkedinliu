@@ -279,11 +279,11 @@ export const Intro = (props?: {
               <span
                 className="text-body-small inline t-black--light break-words"
               >
-                Seattle, Washington, United States
+                Seattle, Washington, United States&nbsp;
               </span>
               <span className="pv-text-details__separator t-black--light">
                 <a
-                  href="/in/liu/overlay/contact-info/"
+                  href="mailto:editor@ercaws.com"
                   id="top-card-text-details-contact-info"
                   className="ember-view link-without-visited-state cursor-pointer text-heading-small inline-block break-words"
                 >
