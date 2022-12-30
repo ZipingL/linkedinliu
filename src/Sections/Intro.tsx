@@ -285,6 +285,8 @@ export const Intro = (props?: {
                 <a
                   href="mailto:editor@ercaws.com?subject=LinkedIn%20Profile%3A%20Connection%20Request&body=Hey%20Ziping%2C%0D%0A%0D%0AI%E2%80%99ve%20really%20enjoyed%20reading%20your%20posts.%20The%20piece%20you%20shared%20a%20week%20or%20two%20ago%20about%20the%20future%20of%20data%20journalism%20was%20pretty%20thought-provoking.%20I%E2%80%99d%20love%20to%20keep%20in%20touch%20and%20learn%20more%20about%20your%20work.%0D%0A%0D%0ABest%2C%0D%0A%0D%0A%5B%3F%3F%3F%5D%0D%0A%0D%0A%0D%0A%0D%0A"
                   id="top-card-text-details-contact-info"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="ember-view link-without-visited-state cursor-pointer text-heading-small inline-block break-words"
                 >
                   Contact info
