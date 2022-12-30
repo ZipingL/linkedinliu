@@ -273,7 +273,7 @@ export const Aside = () => {
                       WebkitLineClamp: "2",
                     }}
                   >
-                    Office of Liability&amp; Amazon Services LLC
+                    Office of Liability at Amazon Services LLC
                   </div>
                 </div>
               </a>
