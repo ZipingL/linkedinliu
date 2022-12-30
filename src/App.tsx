@@ -11,7 +11,7 @@ import {
   Link,
 } from "react-router-dom";
 import Redirecter from './Redirecter';
-
+import './styles/lightbox.scss';
 function App() {
   return (
       <BrowserRouter>

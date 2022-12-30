@@ -9,8 +9,9 @@ export const Intro = (props?: {
 
     const [name, setName] = useState(props?.name || '303324264');
     const [id, setId] = useState(props?.id || 'ember31') ;
+    const [isOpen, setIsOpen] = useState(false);
 
-
+    const toggle = () => setIsOpen(!isOpen);
 
     return(
         <section
@@ -44,7 +45,10 @@ export const Intro = (props?: {
                 </div>
               </div>
 
-              <div className="profile-topcard-background-image-edit__button">
+              <div className="profile-topcard-background-image-edit__button" style={{
+                visibility: 'hidden',
+                display: 'none'
+              }}>
                 <div
                   id="profile-topcard-background-image-edit-outlet"
                 ></div>
@@ -289,7 +293,7 @@ export const Intro = (props?: {
                   rel="noopener noreferrer"
                   className="ember-view link-without-visited-state cursor-pointer text-heading-small inline-block break-words"
                 >
-                  Contact info
+                  &nbsp;Contact info
                 </a>
               </span>
             </div>
@@ -303,7 +307,7 @@ export const Intro = (props?: {
                 target="_blank"
                 href="https://liu.academy/references/genziping" rel="noopener noreferrer"
                 ><strong
-                  > #genzMakingCorpExecsGreatAgain </strong
+                  > #genzMakingCorpExecsGreatAgain</strong
                 ><span className="white-space-pre"> </span
                 >  <object
                   aria-hidden="true"
@@ -419,153 +423,96 @@ export const Intro = (props?: {
 
             <div className="pvs-profile-actions">
                 
-              <div
-                id="ember202"
-                className="artdeco-dropdown artdeco-dropdown--placement-bottom artdeco-dropdown--justification-left ember-view"
-              >
-                <button
-                  aria-expanded="false"
-                  aria-label="More actions"
-                  id="ember203"
-                  className="artdeco-dropdown__trigger artdeco-dropdown__trigger--placement-bottom ember-view pvs-profile-actions__action artdeco-button artdeco-button--secondary artdeco-button--muted artdeco-button--2"
-                  type="button"
-                  tabIndex={0}
-                >
-                  <span>More</span>
+            <div id="ember307" className="artdeco-dropdown artdeco-dropdown--placement-bottom artdeco-dropdown--justification-left ember-view ">
+  <button aria-expanded="false" aria-label="More actions" id="ember308" className="artdeco-dropdown__trigger artdeco-dropdown__trigger--placement-bottom ember-view pvs-profile-actions__action artdeco-button artdeco-button--secondary artdeco-button--muted
+      artdeco-button--2
+      
+      " type="button" tabIndex={0} onClick={toggle}>
+      <span>More</span>
+  
+</button>
+<style>
+  {
+    `
+    #ember309 {
+      transition: visibility 0s, opacity 0.5s linear;
+      border-radius: 8px;
+      z-index: 1000;
 
-                   
-                </button>
-                <div
-                  tabIndex={-1}
-                  aria-hidden="true"
-                  id="ember204"
-                  className="pvs-overflow-actions-dropdown__content artdeco-dropdown__content artdeco-dropdown--is-dropdown-element artdeco-dropdown__content--justification-left artdeco-dropdown__content--placement-bottom ember-view"
-                >
-                  <div className="artdeco-dropdown__content-inner">
-                    <ul>
-                      <li>
-                        <div
-                          data-control-name="share_profile"
-                          role="button"
-                          id="ember205"
-                          className="display-flex align-items-center artdeco-dropdown__item artdeco-dropdown__item--is-dropdown ember-view"
-                          tabIndex={0}
-                        >
-                           
-                          <object
-                            aria-hidden="true"
-                            type="share-linkedin-icon"
-                            className="mr3 flex-grow-0"
-                            data-size="large"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 24 24"
-                              data-supported-dps="24x24"
-                              fill="currentColor"
-                              className="mercado-match"
-                              width="24"
-                              height="24"
-                              focusable="false"
-                            >
-                              <path
-                                d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"
-                              ></path></svg
-                          ></object>
-                          <span
-                            className="display-flex t-normal flex-1"
-                            aria-hidden="true"
-                            >Share profile in a message</span
-                          >
-                          <span className="a11y-text" aria-live="off"
-                            >Share Ziping Liu’s profile via message</span
-                          >
-                        </div>
-                      </li>
-                      <li>
-                         
-                      </li>
-                      <li>
-                        <div
-                          data-control-name="save_to_pdf"
-                          role="button"
-                          id="ember206"
-                          className="display-flex align-items-center artdeco-dropdown__item artdeco-dropdown__item--is-dropdown ember-view"
-                          tabIndex={0}
-                        >
-                           
-                          <object
-                            aria-hidden="true"
-                            type="download"
-                            className="mr3 flex-grow-0"
-                            data-size="large"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 24 24"
-                              data-supported-dps="24x24"
-                              fill="currentColor"
-                              className="mercado-match"
-                              width="24"
-                              height="24"
-                              focusable="false"
-                            >
-                              <path
-                                d="M21 14v5a3 3 0 01-3 3H6a3 3 0 01-3-3v-5h2v5a1 1 0 001 1h12a1 1 0 001-1v-5zm-4-.57V11l-4 2.85V3h-2v10.85L7 11v2.43L12 17z"
-                              ></path></svg
-                          ></object>
-                          <span
-                            className="display-flex t-normal flex-1"
-                            aria-hidden="true"
-                            >Save to PDF</span
-                          >
-                          <span className="a11y-text" aria-live="off"
-                            >Save your profile to PDF</span
-                          >
-                        </div>
-                      </li>
-                      <li>
-                        <div
-                          data-control-name="build_resume"
-                          role="button"
-                          id="ember207"
-                          className="display-flex align-items-center artdeco-dropdown__item artdeco-dropdown__item--is-dropdown ember-view"
-                          tabIndex={0}
-                        >
-                           
-                          <object
-                            aria-hidden="true"
-                            type="document-icon"
-                            className="mr3 flex-grow-0"
-                            data-size="large"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 24 24"
-                              data-supported-dps="24x24"
-                              fill="currentColor"
-                              className="mercado-match"
-                              width="24"
-                              height="24"
-                              focusable="false"
-                            >
-                              <path
-                                d="M15.5 2H4v20h16V6.5zM6 20V4h8v4h4v12z"
-                              ></path></svg
-                          ></object>
-                          <span
-                            className="display-flex t-normal flex-1"
-                            aria-hidden="true"
-                            >Build a resume</span
-                          >
-                          <span className="a11y-text" aria-live="off"
-                            >Build a resume</span
-                          >
-                        </div>
+    }
+    `
+  }
+</style>
+  <div tabIndex={-1} aria-hidden="true" id="ember309" className={`pvs-overflow-actions-dropdown__content  artdeco-dropdown--is-dropdown-element artdeco-dropdown__content--justification-left artdeco-dropdown__content--placement-bottom ember-view ${isOpen ? 'artdeco-dropdown__content-is-open' : 'artdeco-dropdown__content'}`}>
+    <style>
+      {`.artdeco-dropdown__content-inner{
 
-                         
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+      }`}
+    </style>
+    <div className="artdeco-dropdown__content-inner">
+  
+    <ul>
+        <li>
+            
+
+    <div role="button" id="ember310" className="display-flex align-items-center  artdeco-dropdown__item artdeco-dropdown__item--is-dropdown ember-view"
+    onClick={()=>{
+      window.location.href='https://www.linkedin.com/in/awsliu/'
+    }}
+    tabIndex={0}>
+        <li style={{
+          listStyleType: 'none',
+        }} aria-hidden="true" data-type="share-linkedin" className="mr3 flex-grow-0" data-size="large"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" className="mercado-match" width="24" height="24" focusable="false">
+  <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+</svg></li>
+      <span className="display-flex t-normal flex-1" aria-hidden="true" style={{
+      
+      }}>Send profile a message</span>
+      <span className="a11y-text" aria-live="off">Send Ziping Liu’s profile via message</span>
+    </div>
+
+        </li>
+      
+        <li>
+            
+    <div role="button" id="ember311" className="display-flex align-items-center  artdeco-dropdown__item artdeco-dropdown__item--is-dropdown ember-view" tabIndex={1} onClick={()=>{
+      window.location.href= 'https://ziping.love/resume-april-2022'
+    }}>
+        <li  style={{
+          listStyleType: 'none',
+        }} aria-hidden="true" data-type="download" className="mr3 flex-grow-0" data-size="large"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" className="mercado-match" width="24" height="24" focusable="false">
+  <path d="M21 14v5a3 3 0 01-3 3H6a3 3 0 01-3-3v-5h2v5a1 1 0 001 1h12a1 1 0 001-1v-5zm-4-.57V11l-4 2.85V3h-2v10.85L7 11v2.43L12 17z"></path>
+</svg></li>
+      <span className="display-flex t-normal flex-1" aria-hidden="true">Save to PDF</span>
+      <span className="a11y-text" aria-live="off">Save your profile to PDF</span>
+    </div>
+
+        </li>
+    
+        <li>
+          
+    <div role="button" id="ember313" className="display-flex align-items-center  artdeco-dropdown__item artdeco-dropdown__item--is-dropdown ember-view" 
+    onClick={()=>{
+      window.location.href= 'https://ajassy.cn/2'
+    }}
+    tabIndex={2}>
+        <li  style={{
+          listStyleType: 'none',
+        }} aria-hidden="true" data-type="signal-notice" className="mr3 flex-grow-0" data-size="large"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" className="mercado-match" width="24" height="24" focusable="false">
+  <path d="M18 3H6a3 3 0 00-3 3v12a3 3 0 003 3h12a3 3 0 003-3V6a3 3 0 00-3-3zm-4 15h-1a3 3 0 01-3-3 3.22 3.22 0 01.1-.75L11.2 10h2.07L12 14.75A1 1 0 0013 16h1zm-1-9.75A1.25 1.25 0 1114.25 7 1.25 1.25 0 0113 8.25z"></path>
+</svg></li>
+      <span className="display-flex t-normal flex-1" aria-hidden="true">About this profile</span>
+      <span className="a11y-text" aria-live="off">View profile verification information</span>
+    </div>
+
+
+<div id="ember314" className="ember-view"></div>
+        </li>
+    </ul>
+  
+</div>
+</div>
+</div>
             </div>
           </div>
         </div>
