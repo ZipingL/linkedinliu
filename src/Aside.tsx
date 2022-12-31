@@ -1,7 +1,9 @@
 import React from "react";
+import ScriptLoader from "react-script-tag-18"
+
 import Languages from "./Sections/Langauges";
 import LinkedinBadgeLoader, { LinkedinBadgeLoaderProps } from 'react-linkedinbadge';
-import Script from './Utils/Script';
+
 
 export const Aside = () => {
 
@@ -159,14 +161,13 @@ export const Aside = () => {
           display: 'flex-box',
           justifyContent: 'center',
         }}>
-                      <Script src="https://platform.linkedin.com/badges/js/profile.js" 
+                      <ScriptLoader src="https://platform.linkedin.com/badges/js/profile.js" 
                       delayMs={30}
                       onLoad={() => {
                         console.log('loaded');
                         setLinkedLoaded(true);
                       }}
-        
-      />
+        />
 
      { linkedLoaded && <LinkedinBadgeLoader {...props} />}
           

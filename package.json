@@ -21,6 +21,7 @@
     "react-linkedinbadge": "^2.0.244",
     "react-router": "^6.6.1",
     "react-router-dom": "^6.6.1",
+    "react-script-tag-18": "^1.0.212",
     "react-scripts": "*",
     "sass": "^1.57.1",
     "typescript": "^4.9.4",
