@@ -46,7 +46,7 @@ So, yeah, my LinkedIn Account banned basically led to an explosion in publicity 
 
 Anyways, sorry for the long ass story. So in case your LinkedIn Account get's banned to, feel free to make your own HomeGrown LinkedIn Account as well using repo as inspiration. That way, if your linkedin get's banned, you have your LinkedIn profile, and its content, still at home. 
 
-For instance, I now have a LinkedIn at Home, and on the web, and in case the web profile is deleted by LinkedIn, I still have my LinkedIn at home!
+For instance, I now have a [LinkedIn at Home, and on the web](https://linkedinliu.com/in/awsliu), and in case the web profile is deleted by LinkedIn, I still have my LinkedIn at home!
 
 
 ## FAQ
