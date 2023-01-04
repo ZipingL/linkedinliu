@@ -5,6 +5,8 @@
 __Setup your own LinkedIn at Home, with this repo as a template__, and have your own LinkedIn proudly Homegrown, 100% self-made profile in no time, *as a quick and easy way to display your OG linkedin profile, __but without fear__ of LinkedIn Legal deleting or retricting your content!* Because, wow, I guess __*you probably never heard of someone getting banned on LinkedIn before*__ and given that it's such a rare thing to be seen, you *probably are thinking: Wow Ziping, you must of done something very severe*, and consequential! ZIPING YOU MUST BE Such a CONTROVERSIAL person!
 
 
+## View this app, [here](https://www.linkedinliu.com/in/awsliu)
+
 
 ## Background
 
