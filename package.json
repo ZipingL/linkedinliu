@@ -1,7 +1,13 @@
 {
   "name": "linkedin-liu-reacted",
-  "version": "0.1.0",
-  "private": true,
+  "author": "Mr. LIU <editor@ercaws.com>",
+  "license": "MIT HUTTENLOCHER's REVENGE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZipingL/linkedinliu"
+  },
+  "version": "1.1.0",
+  "private": false,
   "dependencies": {
     "@gumgum/react-script-tag": "^0.0.3",
     "@testing-library/jest-dom": "^5.16.5",
@@ -53,5 +59,22 @@
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.3.3"
-  }
+  },
+    "keywords": [
+    "react",
+    "linkedin",
+    "component",
+    "script",
+    "script tag loader",
+    "async",
+    "async lock",
+    "react 18",
+    "react 18 async lock",
+    "node js",
+    "typescript",
+    "typescript 4.9",
+    "amazon legal",
+    "amazon legal where are my wages",
+    "amazon legal lawsuit pending"
+  ],
 }
